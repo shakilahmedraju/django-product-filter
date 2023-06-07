@@ -1,4 +1,1 @@
-web:
-  gunicorn:
-    command: ecomm_project.wsgi:application
-    log-file: -
+web gunicorn ecomm_project.wsgi:application --log-file -
